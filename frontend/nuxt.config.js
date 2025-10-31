@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui',
     '@pinia/nuxt',
-    'pinia-plugin-persistedstate'
+    'pinia-plugin-persistedstate',
+    'nuxt-auth-utils'
   ],
   runtimeConfig: {
     public: {

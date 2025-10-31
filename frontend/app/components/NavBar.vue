@@ -59,6 +59,7 @@ const items = computed<NavigationMenuItem[][]>(() => {
     return [[
       { label: 'Главная', icon: 'i-lucide-home', to: '/' },
       { label: 'Профиль', icon: 'i-lucide-user', to: '/profile' },
+      { label: 'События', icon: 'i-lucide-calendar', to: '/events' },
       {
         label: 'Выйти',
         icon: 'i-lucide-log-out',

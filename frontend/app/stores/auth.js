@@ -31,7 +31,7 @@ export const useAuthStore = defineStore('auth', {
       // auto-login after register
       await this.login({ username, password })
     },
-    async refreshToken() {
+    async fetchRefreshToken() {
       const config = useNuxtApp().$config
       if (!this.refreshToken) return false
 
